@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    backdrop-filter: opacity(90%);
+    font-family: Arial, sans-serif;
+    color: #333; /* Set default text color */;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    gap:px;
+    width: 100vw;
+    height: 90vh;
+    background-image: url('Suvidha-1.png');
+    background-blend-mode: lighten ;
+    background-repeat: repeat;
+}
+
+.Left{
+    width: 50vw;
+    
+}
+#welcome-text{
+    position: relative;
+    text-emphasis-color: white;
+    font-family: fantasy;
+    font-size: larger;
+    font-style: oblique;
+    font-display:calc(30px) ;
+    font-weight: bolder;
+
+}
+#welcome-text h1{
+    color: darkmagenta;
+    position: relative;
+    text-align: center;
+    text-shadow: #333;
+    font-size: 60px;
+}
+#welcome-text p{
+    font-family: cursive;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+
+.Right{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-container{
+    background-image: url(containerbg.jpeg);
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 10px 10px;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#generate-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+}
+
+#generate-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#generate-button:hover {
+    background-color: #0056b3;
+}
+.btn {
+    background-color: burlywood;
+    border-radius: 17px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+   
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.right{
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    
+}
+.header{
+    background-color: #FCEDDA;
+    padding: auto;
+    background-image: url(back2.jpg);
+    padding-bottom: 5px;
+}
+.End{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    padding: 5px 10px;
+    background-image: url(back2.jpg);
+
+   
+}
+.End h2{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: #FCEDDA;
+    font-family: cursive;
+    
+    
+    
+}
+.End h3,h3{
+    text-align: center;
+    font-family: cursive;
+}
+.image{
+    align-items: left;
+    position: relative;
+    top: 50px;
+    padding-left: 10px;
+    
+}
+.image img{
+   
+    height: 100px;
+    width: 100px;
+}
+.acha{
+    object-position: 100px;
+    position:relative 
+    top 50px;
+    padding-left: 10px;
+    float: right;
+}
+.acha img{
+    height: 100px;
+    width: 100px;
+    position:relative ;
+    top: -55px;
+
+}
+
+
+
+
+
+

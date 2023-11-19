@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer Letter Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- NavBar -->
+
+    <header class="header">
+        <div classs="myBg">
+        <div class="left">
+            <img src="SuvidhaLogo.png" alt="Suvidha Foundation Logo">
+        </div>
+        
+        
+        
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="container">
+
+     <!-- Welcome Text[Left] -->
+     <div class="Left">
+     <div id="welcome-text">
+        <h1>Welcome to Suvidha Foundation</h1>
+        <p style="background-color: #fff; opacity: 0.5; text-align: justify; color: #000; z-index: 99;">Suvidha Mahila Mandal is a non-profit organization working to impart education among the financially
+             challenged 
+             sections to help them realize parity in education and 
+             strength of little minds in building a promising future.</p>
+     </div>
+     </div>
+
+     <!-- Details Section[Right] -->
+
+     <div class="Right">
+        <div class="right-container">
+      <h1>Generate Offer Letter</h1>
+
+        <form id="offer-letter-form" action="offer-letter.php" method="post">
+
+            <label for="reference-number">Ref. No.</label>
+            <input type="text" name="ref-no" id="referene-number" placeholder="Enter Ref.No." required>
+
+            <label for="recipient-name">Recipient's Name:</label>
+            <input type="text" name="Name" id="recipient-name" placeholder="Enter Your Name" required>
+
+            <label for="position">Position:</label>
+            <input type="text" name="Position" id="position" placeholder="Enter Your Position" required>
+
+            <label for="start-date">Start Date:</label>
+            <input type="date" name="Startday" id="start-date" required>
+
+            <label for="end-date">End Date:</label>
+            <input type="date" name="enddate" id="end-date">
+
+            <button type="submit" id="generate-button">Generate Offer Letter</button>
+            <div id="offer-letter"></div>
+        </form>
+        </div>
+     </div>
+
+    </div>
+    <div class="End">
+        <div class="image">
+            <img src="sociallogo.jpeg" alt="">
+            
+        </div>
+        <div class="acha">
+            <img src="LOGO2.jpeg" alt="">
+        </div>
+            <h2><mark>Suvidha Foundation (Suvidha Mahila Mandal)</mark></h2>
+            <h3><mark>Suvidha Mahila Mandal, Walni Ward No. 1, Jai Bhole Nagar, Walni, Saoner</mark></h3>
+            <h3><mark>Nagpur, Maharashtra 441102</mark></h3>
+           
+    </div>
+
+</body>
+
+
+</html>
